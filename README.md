@@ -12,7 +12,7 @@ ESP32でIchigoLatteをTelnetで接続できるようにする。<br><br>
 
 ### 使い方 ###
  1. ESP32にスケッチを書き込み後、シリアルモニタを開くとIPアドレスとポート番号が表示されるのでメモしておいて下さい。
- 2. Tera Termを使う場合の設定
+ 2. Tera Termを使う場合の設定<br><br>
 ![画像3](images/image3.png)<br><br>
 ![画像4](images/image4.png)<br><br>
  3. Telnetで接続後IchigoLatteのBTNスイッチを押すと、IchigoLatteのシェルのプロンプトが表示されます。
