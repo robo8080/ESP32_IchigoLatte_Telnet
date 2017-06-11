@@ -2,12 +2,12 @@
 ESP32でIchigoLatteをTelnetで接続できるようにします。<br><br>
 ![画像1](images/image1.png)<br><br>
 ### 必要な物 ###
-* IchigoLatte、またはIchigoLatteファーム書き込み済みのLPC1114
+* IchigoLatte、またはIchigoLatteファーム書き込み済みのLPC1114FN28
 * ESP32-DevKitC<br>
 * Arduino IDE (1.8.0で動作確認をしました。)<br>
 * [Arduino core for ESP32 WiFi chip](https://github.com/espressif/arduino-esp32 "Title")
 
-### 配線(LPC1114を使った例) ###
+### 配線(LPC1114FN28を使った例) ###
 ![画像2](images/image2.png)<br><br>
 
 ### 使い方 ###
