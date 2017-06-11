@@ -1,2 +1,19 @@
 # ESP32_IchigoLatte_Telnet
-IchigoLatteをTelnetで接続できるようにする。
+ESP32でIchigoLatteをTelnetで接続できるようにする。<br><br>
+![画像1](images/image1.png)<br><br>
+### 必要な物 ###
+* LPC1114(IchigoLatteファーム書き込み済み)
+* ESP32-DevKitC<br>
+* Arduino IDE (1.8.0で動作確認をしました。)<br>
+* [Arduino core for ESP32 WiFi chip](https://github.com/espressif/arduino-esp32 "Title")
+
+### 配線 ###
+![画像2](images/image2.png)<br><br>
+
+### 使い方 ###
+ 1. ESP32にスケッチを書き込み後、シリアルモニタを開くとIPアドレスとポート番号が表示されるのでメモしておいて下さい。
+ 2. Tera Termを使う場合の設定
+![画像3](images/image3.png)<br><br>
+![画像4](images/image4.png)<br><br>
+ 
+
