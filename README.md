@@ -1,5 +1,5 @@
 # ESP32_IchigoLatte_Telnet
-ESP32でIchigoLatteをTelnetで接続できるようにする。<br><br>
+ESP32でIchigoLatteをTelnetで接続できるようにします。<br><br>
 ![画像1](images/image1.png)<br><br>
 ### 必要な物 ###
 * IchigoLatte、またはIchigoLatteファーム書き込み済みのLPC1114
