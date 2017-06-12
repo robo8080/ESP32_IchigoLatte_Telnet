@@ -7,8 +7,8 @@ HardwareSerial Serial1(2);
 //txPin = 17
 // create a queue of characters.
 QueueArray <char> queue;
-const char* ssid = "***********";
-const char* password = "***********";
+const char* ssid = "******************";
+const char* password = "******************";
 WiFiServer server(10001);
 WiFiClient serverClient;
 //#define LED   23
@@ -101,13 +101,13 @@ void loop() {
         for (int i = 0 ; i < len;i++) {
           if(sbuf[i] == 0x0d) {
             serverClient.print("\r\n");
+          } else if(sbuf[i] == 0x08) {
+            serverClient.print("\b \b");
           } else if(sbuf[i] != 0x0a)
             serverClient.write(sbuf[i]);
         }
         for (int i = 0 ; i < len;i++) {
-          if(sbuf[i] == 0x08)
-            Serial1.write(0x7f);
-          else if(sbuf[i] == 0x0d)
+          if(sbuf[i] == 0x0d)
             Serial1.write(0x0a);
           else if(sbuf[i] != 0x0a)
             Serial1.write(sbuf[i]);
